@@ -1,0 +1,12 @@
+a = int(input())
+b = int(input())
+
+print(bin(a).replace("0b", ""))
+print(bin(b).replace("0b", ""))
+print('--------')
+# print(bin(a | b).replace("0b", ""))
+# print(bin(a & b).replace("0b", ""))
+# print(bin(a ^ b).replace("0b", ""))
+# print(bin(~b).replace("0b", ""), ~b)
+# print(bin(a >> 2).replace("0b", ""))
+print(bin(a << 2).replace("0b", ""))
